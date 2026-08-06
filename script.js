@@ -18,7 +18,12 @@ document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
 // Ao clicar no botao, mude a cor do texto #texto2 para azul
 //
 // Dica: use .style.color = "blue"
+const botao2 = document.getElementById("btn2");
+const texto2 = document.getElementById("texto2");
 
+botao2.addEventListener("click", function () {
+    texto2.style.color = "purple";
+});
 // ---------- Exercicio 3 ----------
 // Ao clicar no botao, esconda o elemento #texto3
 //
