@@ -100,4 +100,6 @@ document.getElementById("btn9").addEventListener("click", function () {
 // "https://placecats.com/300/200"
 //
 // Dica: use .src = "nova-url"
-
+document.getElementById("btn10").addEventListener("click", function () {
+    document.getElementById("imagem10").src = "https://placecats.com/300/200";
+});
