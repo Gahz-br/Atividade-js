@@ -73,7 +73,9 @@ contador6.textContent = Number(contador6.textContent) + 1; });
 // e mostre dentro do #resultado7
 //
 // Dica: use .value para pegar o texto do input
-
+document.getElementById("btn7").addEventListener("click", function () {
+    let texto = document.getElementById("input7").value;
+    document.getElementById("resultado7").textContent = texto; })
 
 
 // ---------- Exercicio 8 ----------
