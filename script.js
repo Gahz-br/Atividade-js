@@ -51,7 +51,10 @@ botao4.addEventListener("click", function () {
 // para amarelo
 //
 // Dica: use .style.backgroundColor = "yellow"
-
+const botao5 = document.getElementById("btn5");
+const caixa5 = document.getElementById("caixa5");
+botao5.addEventListener("click", function () {
+caixa5.style.backgroundColor = "yellow"; });
 
 
 // ---------- Exercicio 6 ----------
