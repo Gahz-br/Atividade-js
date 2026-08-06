@@ -22,14 +22,15 @@ const botao2 = document.getElementById("btn2");
 const texto2 = document.getElementById("texto2");
 
 botao2.addEventListener("click", function () {
-    texto2.style.color = "purple";
-});
+    texto2.style.color = "purple"; });
 // ---------- Exercicio 3 ----------
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
-
-
+const botao3 = document.getElementById("btn3");
+const texto3 = document.getElementById("texto3")
+botao3.addEventListener("click", function () {
+    texto3.style.display = "none"; });
 
 // ---------- Exercicio 4 ----------
 // Ao clicar no botao, adicione um novo <li> com o texto
