@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicios DOM - Parte 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Exercicios de JavaScript com DOM - Parte 2</h1>
+    <p class="subtitle">Resolva cada exercicio editando o arquivo <code>script2.js</code></p>
+    <p style="margin-top: 10px;"><a href="index.html" style="color: #1a1a2e;">Voltar para Parte 1</a></p>
+  </header>
+
+  <main>
+
+    <!-- Exercicio 11 -->
+    <section class="exercicio">
+      <h2>Exercicio 11 - Desabilitar botao</h2>
+      <p>Ao clicar no botao, desabilite-o (ele deve ficar cinza e nao clicar mais).</p>
+      <button id="btn11">Clique para desabilitar</button>
+    </section>
+
+    <!-- Exercicio 12 -->
+    <section class="exercicio">
+      <h2>Exercicio 12 - Trocar texto do botao</h2>
+      <p>Ao clicar no botao, troque o texto dele de <strong>"Curtir"</strong> para <strong>"Curtido!"</strong>.</p>
+      <button id="btn12">Curtir</button>
+    </section>
+
+    <!-- Exercicio 13 -->
+    <section class="exercicio">
+      <h2>Exercicio 13 - Mudar tamanho da fonte</h2>
+      <p>Ao clicar no botao, aumente o tamanho da fonte do texto abaixo para <strong>32px</strong>.</p>
+      <p id="texto13">Aumente meu tamanho!</p>
+      <button id="btn13">Aumentar fonte</button>
+    </section>
+
+    <!-- Exercicio 14 -->
+    <section class="exercicio">
+      <h2>Exercicio 14 - Limpar lista</h2>
+      <p>Ao clicar no botao, remova <strong>todos</strong> os itens da lista.</p>
+      <ul id="lista14">
+        <li>Arroz</li>
+        <li>Feijao</li>
+        <li>Macarrao</li>
+        <li>Carne</li>
+      </ul>
+      <button id="btn14">Limpar lista</button>
+    </section>
+
+    <!-- Exercicio 15 -->
+    <section class="exercicio">
+      <h2>Exercicio 15 - Adicionar item do input na lista</h2>
+      <p>Digite algo no campo e clique no botao para adicionar como item na lista.</p>
+      <input type="text" id="input15" placeholder="Digite um item">
+      <button id="btn15">Adicionar</button>
+      <ul id="lista15"></ul>
+    </section>
+
+    <!-- Exercicio 16 -->
+    <section class="exercicio">
+      <h2>Exercicio 16 - Alternar visibilidade</h2>
+      <p>Ao clicar no botao, alterne a visibilidade do texto (se esta visivel, esconda; se esta escondido, mostre).</p>
+      <p id="texto16">Agora voce me ve!</p>
+      <button id="btn16">Alternar</button>
+    </section>
+
+    <!-- Exercicio 17 -->
+    <section class="exercicio">
+      <h2>Exercicio 17 - Mudar borda da caixa</h2>
+      <p>Ao clicar no botao, adicione uma borda <strong>3px solid red</strong> na caixa abaixo.</p>
+      <div id="caixa17" class="caixa"></div>
+      <button id="btn17">Adicionar borda</button>
+    </section>
+
+    <!-- Exercicio 18 -->
+    <section class="exercicio">
+      <h2>Exercicio 18 - Copiar texto do input</h2>
+      <p>Ao clicar no botao, copie o texto do primeiro campo para o segundo.</p>
+      <input type="text" id="input18a" placeholder="Digite aqui">
+      <br><br>
+      <input type="text" id="input18b" placeholder="Copia aparece aqui" readonly>
+      <br>
+      <button id="btn18">Copiar</button>
+    </section>
+
+    <!-- Exercicio 19 -->
+    <section class="exercicio">
+      <h2>Exercicio 19 - Contador com mais e menos</h2>
+      <p>Faca o numero aumentar com o botao <strong>+</strong> e diminuir com o botao <strong>-</strong>.</p>
+      <button id="btn19menos">-</button>
+      <span id="contador19" style="font-size: 2rem; font-weight: bold; margin: 0 16px; color: #1a1a2e;">0</span>
+      <button id="btn19mais">+</button>
+    </section>
+
+    <!-- Exercicio 20 -->
+    <section class="exercicio">
+      <h2>Exercicio 20 - Mudar cor com input de cor</h2>
+      <p>Ao escolher uma cor no seletor e clicar no botao, mude a cor de fundo da caixa.</p>
+      <input type="color" id="corInput20" value="#ff0000">
+      <button id="btn20">Aplicar cor</button>
+      <div id="caixa20" class="caixa" style="margin-top: 10px;"></div>
+    </section>
+
+  </main>
+
+  <script src="script2.js"></script>
+</body>
+</html>
