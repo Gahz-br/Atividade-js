@@ -62,7 +62,10 @@ caixa5.style.backgroundColor = "yellow"; });
 //
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
-
+const botao6 = document.getElementById("btn6");
+const contador6 = document.getElementById("contador6");
+botao6.addEventListener("click", function () {
+contador6.textContent = Number(contador6.textContent) + 1; });
 
 
 // ---------- Exercicio 7 ----------
